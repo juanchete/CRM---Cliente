@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:4000/',
+    uri: 'https://hidden-sierra-56752.herokuapp.com/',
     fetch
 })
 
